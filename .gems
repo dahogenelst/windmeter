@@ -1,2 +1,3 @@
 hpricot --source http://gemcutter.org
+dm-core --source http://gemcutter.org
 formtastic --source http://gemcutter.org
