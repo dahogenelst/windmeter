@@ -1,0 +1,56 @@
+body {
+  background-color: #017faf;
+  font-family: Verdana, Helvetica, Arial;
+  font-size: 14px;
+}
+
+#bg {
+	background-image: url('../images/main.jpg');
+	background-repeat: no-repeat;
+	width:512px;
+	height:512px;
+	margin:0 auto;	
+}
+
+#wpr_overigen{
+	width:277px;
+	float:left;
+	display:inline;
+	clear:both;
+	margin:0 0 0 232px;
+	padding:160px 0 0 0;
+	height:20px;
+
+}
+	ul#overigen li{
+		font-size:10px;
+		color:white;
+		width:277px;
+	}
+
+#windsnelheid{
+	margin:0 0 0 290px;
+	padding:5px 0 0 0;
+	float:left;
+	display:inline;
+	clear:both;
+}
+
+	#windsnelheid h1{
+		text-shadow:0 1px 1px #a6efff;
+		font-style:italic;
+		font-weight:bold;
+		color:#115c85;
+		font-size:36px;
+	}
+
+#windrichting{
+	margin: 0 0 0 290px;
+	float:left;
+	display:inline;
+	clear:both;
+}
+	
+	#windrichting p	{
+		color:#115c85;	
+	}

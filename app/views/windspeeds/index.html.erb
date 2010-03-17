@@ -1,0 +1,30 @@
+<% title "Windmeter @ ", false%>
+<div id="wpr_overigen">
+	<ul id="overigen">
+		<li>Windmeting @ <%=@h["tijd"]%> (<%=@h["datum"]%>-20<%=@h["jaar"]%>)</li>
+		<li>Buitentemperatuur <%=@h["buitentemp._oc"]%> &deg;C</li>
+		<li>Gevoelstemperatuur <%=@h["gevoelstemp._oc"] %> &deg;C</li>
+		<li>Windsterkte <%=@h["windkracht_bft"]%> Bft</li>
+		<li>Windstoot <%=@h["windstoot_m/s"]%> m/s</li>
+	</ul>
+</div>
+<div id="windsnelheid">
+	<h1>
+		<%=@h["windsnelheid_m/s"]%>
+	</h1>
+</div>
+<div id="windrichting">
+	<p>
+		<%=@h["windrichting"]%>
+	</p>
+</div>
+<script type="text/javascript">  
+	$(document).ready( function(){ 
+		$('#overigen').innerfade({ 
+			animationtype: 'slide', 
+			speed: 750, 
+			timeout: 3000, 
+			type: 'random' 
+		}); 
+	});
+</script>
