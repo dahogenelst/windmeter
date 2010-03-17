@@ -1,1 +1,2 @@
 hpricot --source http://gemcutter.org
+formtastic --source http://gemcutter.org
