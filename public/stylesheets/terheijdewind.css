@@ -30,6 +30,7 @@ body {
 
 #windsnelheid{
 	margin:0 0 0 290px;
+	width:222px;
 	padding:5px 0 0 0;
 	float:left;
 	display:inline;
@@ -42,6 +43,7 @@ body {
 		font-weight:bold;
 		color:#115c85;
 		font-size:36px;
+		width:222px;
 	}
 
 #windrichting{
@@ -49,8 +51,10 @@ body {
 	float:left;
 	display:inline;
 	clear:both;
+	width:222px;
 }
 	
 	#windrichting p	{
 		color:#115c85;	
+		width:222px;
 	}
